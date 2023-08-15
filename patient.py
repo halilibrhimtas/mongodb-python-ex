@@ -85,7 +85,7 @@ patients.update_one(filter_query, update_query)
 
 
 #Task 3 - Find all patients age > 30
-
+  
 
 data = patients.find({"age": {"$gt": 30}})
 for a in data:
